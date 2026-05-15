@@ -1,5 +1,21 @@
 {
   "name": "azure-webapp-lab",
   "version": "1.0.0",
-  "private": true
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sunteang/azure-webapp-lab.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Sunteang/azure-webapp-lab/issues"
+  },
+  "homepage": "https://github.com/Sunteang/azure-webapp-lab#readme"
 }
