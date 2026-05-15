@@ -3,7 +3,7 @@ name: Build and Deploy Node App to Azure
 on:
   push:
     branches:
-      - main # Change this to master if that's your default branch
+      - main
 
 jobs:
   build-and-deploy:
@@ -27,5 +27,5 @@ jobs:
       - name: Deploy to Azure Web App
         uses: azure/webapps-deploy@v3
         with:
-          app-name: 'sovannarith'
-          publish-profile: ${{ secrets.AZURE_APP_SERVICE_PUBLISH_PROFILE }}
+          app-name: 'teangazurewebapp123'
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE }}
